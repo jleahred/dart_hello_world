@@ -1,0 +1,14 @@
+name: hello_world
+version: 0.0.1
+description: A minimal web app for the developer that doesn’t want to be confused by too much going on.
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: any
+  color_picker: any
+  markdown: any
+  route_hierarchical: any
+  sass: any
+  script_inliner: any
+transformers:
+- script_inliner
